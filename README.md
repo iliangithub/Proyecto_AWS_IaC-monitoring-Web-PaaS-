@@ -59,3 +59,11 @@ infraestructura de "Kappa". Todo estará codificado y
 versionado en un repositorio Git. 
 La documentación será exhaustiva y estará disponible para todo 
 el equipo. 
+
+
+## Buenas prácticas.
+
+1- En la Rama Main, se subirá todo, el Terraform, el php, etc... Producción.
+2- se creará una copia, identica en otra rama. Preproducción.
+3- Los cambios, se trabajarán desde una 3 rama. La de desarrollo.
+4- Desde ahí se trabajarán diferentes cosas, rama para el php, rama para el terraform, etc...

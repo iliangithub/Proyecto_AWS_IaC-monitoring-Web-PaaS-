@@ -63,11 +63,16 @@ el equipo.
 
 ## Buenas prácticas, utilizadas para este proyecto:
 
-1- En la Rama Main, se subirá todo, el Terraform, el php, etc... Producción.
-2- se creará una copia, identica en otra rama. Preproducción.
-3- Los cambios, se trabajarán desde una 3 rama. La de desarrollo.
-4- Desde ahí se trabajarán diferentes cosas, rama para el php, rama para el terraform, etc...
+### Control de versiones de este proyecto.
+
+1 - En la Rama Main, se subirá todo, el Terraform, el php, etc... Producción.
+2 - se creará una copia, identica en otra rama. Preproducción.
+3 - Los cambios, se trabajarán desde una 3 rama. La de desarrollo.
+4 - Desde ahí se trabajarán diferentes cosas, rama para el php, rama para el terraform, etc...
 
 ![image](https://github.com/user-attachments/assets/80e38601-7b6a-4cbd-9263-27ad2942d4a0)
 
-Las claves API, NO SE VAN A SUBIR **DIRECTAMENTE EN EL GITHUB**.
+### Seguridad.
+
+1 - Las claves API, NO SE VAN A SUBIR **DIRECTAMENTE EN EL GITHUB**.
+2 - Prohibido iniciar sesión en AWS con el usuario ROOT.

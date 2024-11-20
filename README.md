@@ -1,4 +1,4 @@
-# Proyecto_IaC-monitoring-Web-PaaS-
+# 0.0 Proyecto AWS, Terraform, Web, PaaS y Monitorización.
 
 Publicación de la Web Corporativa: 
 Utilizar la máquina Windows Server 2022 existente para alojar la 
@@ -60,10 +60,9 @@ versionado en un repositorio Git.
 La documentación será exhaustiva y estará disponible para todo 
 el equipo. 
 
+## 0.1 Buenas prácticas, utilizadas para este proyecto:
 
-## Buenas prácticas, utilizadas para este proyecto:
-
-### Control de versiones de este proyecto.
+### 0.1.1 Control de versiones de este proyecto.
 
 1. En la Rama Main, se subirá todo, el Terraform, el php, etc... Producción.
 2. se creará una copia, identica en otra rama. Preproducción.
@@ -72,7 +71,19 @@ el equipo.
 
 ![image](https://github.com/user-attachments/assets/9b8b9bfd-937a-489c-a920-0ac9f6e089ec)
 
-### Seguridad.
+### 0.1.2 Seguridad.
 
 1. Las claves API, NO SE VAN A SUBIR **DIRECTAMENTE EN EL GITHUB, en el repositorio remoto**. (hay bots que los buscan y pueden darnos "sorpresas").
 2. Prohibido iniciar sesión en AWS con el usuario ROOT.
+
+## 0.2 Requisitos.
+
+En mi S.O. Windows 10:
+- Terraform.
+- AWS.
+- AWS CLI descargado.
+  
+# 1.0 AWS
+
+## 1.1 Crear el usuario en AWS.
+## 1.2 Infraestructura como código, Terraform para AWS.

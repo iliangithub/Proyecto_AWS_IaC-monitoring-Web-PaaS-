@@ -61,7 +61,7 @@ La documentación será exhaustiva y estará disponible para todo
 el equipo. 
 
 
-## Buenas prácticas.
+## Buenas prácticas, utilizadas para este proyecto:
 
 1- En la Rama Main, se subirá todo, el Terraform, el php, etc... Producción.
 2- se creará una copia, identica en otra rama. Preproducción.

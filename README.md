@@ -67,3 +67,7 @@ el equipo.
 2- se creará una copia, identica en otra rama. Preproducción.
 3- Los cambios, se trabajarán desde una 3 rama. La de desarrollo.
 4- Desde ahí se trabajarán diferentes cosas, rama para el php, rama para el terraform, etc...
+
+![image](https://github.com/user-attachments/assets/80e38601-7b6a-4cbd-9263-27ad2942d4a0)
+
+Las claves API, NO SE VAN A SUBIR **DIRECTAMENTE EN EL GITHUB**.

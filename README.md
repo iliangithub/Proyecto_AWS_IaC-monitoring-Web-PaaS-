@@ -75,7 +75,8 @@ el equipo.
 
 1. Las claves API, NO SE VAN A SUBIR **DIRECTAMENTE EN EL GITHUB, en el repositorio remoto**. (hay bots que los buscan y pueden darnos "sorpresas").
 2. Prohibido iniciar sesión en AWS con el usuario ROOT.
-
+3. Las credenciales **JAMÁS DEBEN SER EXPUESTAS EN EL GITHUB** Sin embargo, hay que encontrar alguna alternativa para poder subirla aquí.
+   
 ## 0.2 Requisitos.
 
 En mi S.O. Windows 10:
@@ -86,4 +87,16 @@ En mi S.O. Windows 10:
 # 1.0 AWS
 
 ## 1.1 Crear el usuario en AWS.
+
+Para ello, buscamos IAM, y creamos el usuario:
+
+![image](https://github.com/user-attachments/assets/416371b7-82ec-4abd-bd95-367156c6eda9)
+
+Nos vamos a "Usuarios" y "Crear Usuario".
+
+Los permisos van a ser:
+- AdministratorAccess
+
+Y descargamos las credenciales.
+
 ## 1.2 Infraestructura como código, Terraform para AWS.

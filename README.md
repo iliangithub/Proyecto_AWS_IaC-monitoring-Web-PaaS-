@@ -70,7 +70,7 @@ el equipo.
 3. Los cambios, se trabajarán desde una 3 rama. La de desarrollo.
 4. Desde ahí se trabajarán diferentes cosas, rama para el php, rama para el terraform, etc...
 
-![image](https://github.com/user-attachments/assets/80e38601-7b6a-4cbd-9263-27ad2942d4a0)
+![image](https://github.com/user-attachments/assets/9b8b9bfd-937a-489c-a920-0ac9f6e089ec)
 
 ### Seguridad.
 

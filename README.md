@@ -146,7 +146,9 @@ Voy a crear una carpeta nueva, `terraform scripts` .
 > 
 > ![image](https://github.com/user-attachments/assets/03f5a158-48a8-4ec1-97b5-7363777176f9)
 >
-> Además.
+
+> [!IMPORTANT]
+> **Además.**
 >
 > Es todavía más conveniente y NECESARIO. Probarlo todo, antes de crear el Terraform. Así que voy a crear la instancia, y descargar todo.
 > 

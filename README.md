@@ -94,9 +94,61 @@ Para ello, buscamos IAM, y creamos el usuario:
 
 Nos vamos a "Usuarios" y "Crear Usuario".
 
+![image](https://github.com/user-attachments/assets/d66b53c2-9ab9-4ec7-b7d0-295860af2f07)
+
 Los permisos van a ser:
 - AdministratorAccess
 
-Y descargamos las credenciales.
+![image](https://github.com/user-attachments/assets/deb7517d-2530-4439-888b-e30c17245ab0)
+
+![image](https://github.com/user-attachments/assets/3db6af91-1fbe-4137-b3c2-8bff4d23b520)
+
+Y descargamos las credenciales. VAMOS A TENER QUE SUBIRLAS AQUÍ DE ALGUNA MANERA SIN QUE PUEDA SER ABIERTO Y LEIDO O AL DESCARGARSE QUE SE LEA.
+
+![image](https://github.com/user-attachments/assets/c5158e60-ee6a-4388-a4e3-d894815fe507)
+
+Como podemos ver también nos pide el AWS Access Key ID.
+
+![image](https://github.com/user-attachments/assets/e41f5ea1-4393-4d0b-abf5-3086e63b26d0)
+
+Como se puede apreciar, no tengo, debo de crear una.
+
+![image](https://github.com/user-attachments/assets/1e3f18f2-a462-4201-9ca4-701eff9ed22e)
+
+![image](https://github.com/user-attachments/assets/2b5afae0-fcaa-492c-aac4-8083a6d9dfa5)
+
+![image](https://github.com/user-attachments/assets/c0bcbcc7-117e-4977-9ace-0381a8fad34a)
+
+Y voy a descargarla.
+
+![image](https://github.com/user-attachments/assets/5f94e582-ed6b-4cfd-acac-30dd6773fb83)
+
+Así que volveré al GitBash:
+
+![image](https://github.com/user-attachments/assets/536a5d8a-b59a-455d-ab45-8ec544d3a23c)
 
 ## 1.2 Infraestructura como código, Terraform para AWS.
+
+Ahora solo vamos a comprobar de que tenemos terraform descargado. `terraform --help`
+
+Voy a crear una carpeta nueva, `terraform scripts` .
+
+> [!TIP]
+> Mientras estoy haciendo el código de terraform para las instancias de AWS, me doy cuenta de que necesito.
+> El ID de las AMI's, es decir, si va  aser un Ubuntu, un CentOS, etc...
+> Por lo tanto, primero voy a leerme la documentación, por ejemplo, para monitorización, en que S.O. puedo instalar Grafana, Prometheus, Centreon...
+>
+> - https://grafana.com/docs/grafana/latest/setup-grafana/installation/
+> - https://download.centreon.com/
+> - ![image](https://github.com/user-attachments/assets/93cf2881-e959-4529-bb5a-9285269072ff)
+>
+> Así que, tras leer las documentaciones y consultarme, voy a proceder a utilizar el Amazon Linux.
+
+
+Y el código del terraform para AWS va a ser:
+
+```
+provider "AWS"{
+
+}
+```

@@ -145,6 +145,11 @@ Voy a crear una carpeta nueva, `terraform scripts` .
 > Así que, tras leer las documentaciones y consultarme, voy a proceder a utilizar el Amazon Linux.
 > 
 > ![image](https://github.com/user-attachments/assets/03f5a158-48a8-4ec1-97b5-7363777176f9)
+>
+> Además.
+>
+> Es todavía más conveniente y NECESARIO. Probarlo todo, antes de crear el Terraform. Así que voy a crear la instancia, y descargar todo.
+> 
 
 
 

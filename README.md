@@ -143,6 +143,9 @@ Voy a crear una carpeta nueva, `terraform scripts` .
 > - ![image](https://github.com/user-attachments/assets/93cf2881-e959-4529-bb5a-9285269072ff)
 >
 > Así que, tras leer las documentaciones y consultarme, voy a proceder a utilizar el Amazon Linux.
+> 
+> ![image](https://github.com/user-attachments/assets/03f5a158-48a8-4ec1-97b5-7363777176f9)
+
 
 
 Y el código del terraform para AWS va a ser:

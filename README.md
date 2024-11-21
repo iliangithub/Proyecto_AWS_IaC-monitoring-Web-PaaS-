@@ -83,7 +83,78 @@ En mi S.O. Windows 10:
 - Terraform.
 - AWS.
 - AWS CLI descargado.
-  
+
+## 0.3 ¿Cuales son las herramientas a utilizar, para qué sirven?
+
+**¿Qué es Centreon?**
+Centreon es una plataforma de monitorización de infraestructura y redes que permite supervisar servidores, aplicaciones, dispositivos de red, servicios, y más.
+Diseñado para entornos empresariales, combina funciones de recopilación de métricas, generación de alertas y gestión de eventos.
+Es modular, lo que permite integrarlo con otras herramientas (como Grafana o Prometheus) para extender sus capacidades.
+
+Características principales:
+Soporte Multi-Protocolo:
+Usa protocolos como SNMP, SSH, WMI, NRPE, o API para monitorizar dispositivos y servicios.
+Alertas y Notificaciones:
+Genera alertas configurables para fallos en el sistema o rendimiento anómalo.
+Informes y Paneles:
+Incluye dashboards prediseñados y generación de informes periódicos.
+Escalabilidad:
+Ideal para redes pequeñas o grandes infraestructuras con miles de dispositivos.
+Plugins:
+Compatible con cientos de plugins para añadir soporte a tecnologías específicas.
+¿Es reactivo?
+Sí, Centreon es reactivo, porque funciona detectando eventos en tiempo real y generando alertas basadas en estados predefinidos:
+Estados reactivos: "UP", "DOWN", "WARNING", "CRITICAL".
+Estas alertas permiten al administrador tomar medidas correctivas.
+No es exclusivamente reactivo: Centreon también puede generar métricas históricas para análisis y prever problemas futuros.
+
+**¿Qué es Grafana?**
+Grafana es una herramienta de visualización y análisis de datos.
+Se utiliza para crear dashboards personalizados a partir de datos recopilados por herramientas como Prometheus, Centreon, InfluxDB, Elasticsearch, y más.
+Características principales:
+Dashboards Interactivos:
+Permite combinar múltiples fuentes de datos en gráficos, tablas, y otros widgets interactivos.
+Alertas Avanzadas:
+Configura alertas basadas en reglas personalizadas y recíbelas por correo, Slack, o PagerDuty.
+Integración Multi-Fuente:
+Compatible con sistemas de monitorización, bases de datos, y APIs externas.
+Fácil de Usar:
+Interfaz intuitiva con soporte para plantillas y lenguajes de consulta (como PromQL para Prometheus).
+Rol de Grafana en una infraestructura de monitorización:
+No es un monitorizador en sí mismo. Grafana no recopila datos, sino que se conecta a herramientas como Prometheus o Centreon para mostrar esos datos de manera gráfica.
+Su fortaleza radica en la capacidad de generar informes visuales avanzados y consolidar múltiples fuentes de datos en un solo lugar.
+
+**¿Qué es Prometheus?**
+Prometheus es un sistema de monitorización y almacenamiento de métricas en serie temporal.
+Fue desarrollado originalmente por SoundCloud y ahora es parte de la Cloud Native Computing Foundation (CNCF).
+Características principales:
+Modelo Pull:
+Prometheus recopila métricas de manera activa (pull) desde los endpoints configurados (expuestos por servicios o aplicaciones).
+Serie Temporal:
+Almacena métricas como datos de series temporales, lo que permite un análisis muy detallado.
+Lenguaje de Consultas (PromQL):
+Ofrece una potente forma de consultar y manipular métricas almacenadas.
+Alertmanager:
+Componente que gestiona las alertas generadas por Prometheus basadas en condiciones definidas por el usuario.
+Ecosistema Extensible:
+Se integra fácilmente con servicios en la nube, herramientas de orquestación como Kubernetes, y visualización en Grafana.
+Rol de Prometheus en una infraestructura de monitorización:
+Prometheus es proactivo, porque se anticipa a problemas mediante el análisis de métricas históricas y actuales.
+Es ideal para entornos modernos de contenedores y microservicios (e.g., Kubernetes).
+Comparación y Complementariedad
+Característica	Centreon	Grafana	Prometheus
+Rol principal	Monitorización y alertas	Visualización de datos	Monitorización y almacenamiento de métricas
+Datos procesados	Estados (UP/DOWN, CRITICAL)	Métricas y gráficos	Métricas en series temporales
+Recopilación de datos	Basado en plugins y protocolos	No recopila datos	Pull desde endpoints (scraping)
+Alertas	Reactivas	Basadas en datos de otros	Proactivas
+Escalabilidad	Ideal para infraestructura compleja	Escalable en visualización	Muy escalable en entornos cloud-native
+Facilidad de uso	Configuración robusta y centralizada	Intuitivo para dashboards	Curva de aprendizaje más alta
+¿Cómo trabajan juntos?
+Centreon: Detecta problemas en tiempo real y genera estados críticos (UP/DOWN). Es excelente para la monitorización reactiva de sistemas tradicionales.
+Prometheus: Recopila métricas detalladas, analiza patrones y genera alertas proactivas. Ideal para entornos modernos.
+Grafana: Toma las métricas de Centreon, Prometheus, y otras fuentes para presentar datos en un formato visual atractivo y unificado.
+En una infraestructura moderna, estas herramientas son altamente complementarias y pueden combinarse para obtener un sistema de monitorización robusto y completo.
+
 # 1.0 AWS
 
 ## 1.1 Crear el usuario en AWS.

@@ -59,6 +59,9 @@ infraestructura de "Kappa". Todo estará codificado y
 versionado en un repositorio Git. 
 La documentación será exhaustiva y estará disponible para todo 
 el equipo. 
+### 0.0.1 Arquitectura del Proyecto:
+
+imagen
 
 ## 0.1 Buenas prácticas, utilizadas para este proyecto:
 

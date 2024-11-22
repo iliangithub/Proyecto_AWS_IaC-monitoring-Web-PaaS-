@@ -29,18 +29,12 @@
 
 ---
 
-**Beneficios Esperados**  
-- **Eficiencia:** La automatización y observabilidad mejorarán las operaciones.  
-- **Disponibilidad:** La alta disponibilidad y balanceo de carga garantizarán la continuidad del servicio.  
-- **Impacto Social:** Kappa busca fomentar la educación digital en comunidades desfavorecidas, promoviendo la innovación y el cambio social.  
-
----
-
 **Implementación Técnica**  
 - **Infraestructura como Código (IaC):**  
   - Utilizar Terraform para definir y gestionar toda la infraestructura de Kappa.  
   - Todo será versionado en un repositorio Git con documentación detallada para todo el equipo.
 
+---
 
 ### 0.0.1 Arquitectura del Proyecto:
 

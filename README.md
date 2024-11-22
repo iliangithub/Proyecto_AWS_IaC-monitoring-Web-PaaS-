@@ -213,12 +213,14 @@ Voy a crear una carpeta nueva, `terraform scripts` .
 > Por lo tanto, primero voy a leerme la documentación, por ejemplo, para monitorización, en que S.O. puedo instalar Grafana, Prometheus, Centreon...
 >
 > - https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/
+> 
 > El puerto que utiliza es el 3000.
 >
 > 
 > - https://download.centreon.com/
 > - https://docs.centreon.com/docs/installation/compatibility/
 > - https://docs.centreon.com/docs/installation/installation-of-a-central-server/using-packages/
+> 
 > El puerto que utiliza es el 80.
 >
 > 

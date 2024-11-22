@@ -214,12 +214,14 @@ Voy a crear una carpeta nueva, `terraform scripts` .
 >
 > - https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/
 > - El puerto que utiliza es el 3000.
->   
+>
+> 
 > - https://download.centreon.com/
 > - https://docs.centreon.com/docs/installation/compatibility/
 > - https://docs.centreon.com/docs/installation/installation-of-a-central-server/using-packages/
 > - El puerto que utiliza es el 80.
-> - 
+>
+> 
 > - ![image](https://github.com/user-attachments/assets/93cf2881-e959-4529-bb5a-9285269072ff)
 >
 > Así que, tras leer las documentaciones y consultarme, voy a proceder a utilizar el Amazon Linux.

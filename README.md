@@ -223,3 +223,21 @@ provider "AWS"{
 
 }
 ```
+
+# Crear la Web desde 0.
+
+> [!IMPORTANT]
+> Prohibido usar XAMPP.
+> 
+> La página va a ser programada y creada desde cero.
+>
+> Se van a usar frameworks como "Bootstrap" o "Django".
+>
+
+## Descargar las cosas
+
+### Frameworks:
+
+- Django
+- Boostrap
+

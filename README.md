@@ -238,6 +238,6 @@ provider "AWS"{
 
 ### Frameworks:
 
-- Django
+- Flask
 - Boostrap
 

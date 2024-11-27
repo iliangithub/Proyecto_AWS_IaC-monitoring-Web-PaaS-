@@ -231,7 +231,7 @@ provider "AWS"{
 > 
 > La página va a ser programada y creada desde cero.
 >
-> Se van a usar frameworks como "Bootstrap" o "Django".
+> Se van a usar frameworks como "Bootstrap" y "Flask".
 >
 
 ## Descargar las cosas

@@ -243,4 +243,4 @@ provider "AWS"{
 
 ### 4.1.2 La página en sí.
 
-Va ser una página super simple, con solo un login, en el que inicio sesión e ya. NI SI QUIERA, voy a crear una página de registro. El usuario va a ser `admin` y `a12345`
+Va ser una página super simple, con solo un login, en el que inicio sesión e ya. NI SI QUIERA, voy a crear una página de registro. El usuario va a ser `admin@mail.com` y `a12345`

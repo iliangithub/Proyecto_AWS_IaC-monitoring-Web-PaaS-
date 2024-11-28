@@ -224,7 +224,7 @@ provider "AWS"{
 }
 ```
 
-# Crear la Web desde 0.
+# 4.0 Crear la Web desde 0.
 
 > [!IMPORTANT]
 > Prohibido usar XAMPP.
@@ -234,10 +234,13 @@ provider "AWS"{
 > Se van a usar frameworks como "Bootstrap" y "Flask".
 >
 
-## Descargar las cosas
+## 4.1 Descargar las cosas
 
-### Frameworks:
+### 4.1.1 Frameworks:
 
 - Flask
 - Boostrap
 
+### 4.1.2 La página en sí.
+
+Va ser una página super simple, con solo un login, en el que inicio sesión e ya. NI SI QUIERA, voy a crear una página de registro. El usuario va a ser `admin` y `a12345`

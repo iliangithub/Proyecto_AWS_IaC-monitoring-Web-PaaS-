@@ -243,4 +243,32 @@ provider "AWS"{
 
 ### 4.1.2 La página en sí.
 
-Va ser una página super simple, con solo un login, en el que inicio sesión e ya. NI SI QUIERA, voy a crear una página de registro. El usuario va a ser `admin@mail.com` y `a12345`
+Va ser una página super simple, con solo un login, en el que inicio sesión e ya. NI SI QUIERA, voy a crear una página de registro. El usuario va a ser `admin@mail.com` y `a12345`.
+
+el output, de nuestro arbol de directorios de mi página es este:
+```
+C:\Users\Usuario\Desktop>tree /f desarrollo
+Listado de rutas de carpetas
+El número de serie del volumen es 00000031 B6D5:9FCA
+C:\USERS\USUARIO\DESKTOP\DESARROLLO
+│   ejecutar_para_construir_docker.bat
+│
+└───src
+    ├───docker-related
+    │       docker-compose.yml
+    │       Dockerfile
+    │       nginx.conf
+    │       requirements.txt
+    │
+    └───web-app
+        ├───css-comun
+        └───python
+            │   app.py
+            │
+            ├───bd
+            │       bd.sql
+            │
+            └───templates
+                    index.html
+                    style.css
+```
